@@ -1,6 +1,10 @@
 # PALC: Preference Alignment via Logit Calibration
 
-[Paper (OpenReview)](https://openreview.net/forum?id=0cmuYj3WeG) | ICLR 2026 Submission #23970
+**ICLR 2026** | [Paper (OpenReview)](https://openreview.net/forum?id=0cmuYj3WeG)
+
+<div align="center">
+  <img src="overview_figure.png" alt="PALC Overview" width="100%">
+</div>
 
 ---
 
@@ -218,4 +222,6 @@ loss = -F.logsigmoid(chosen_log_probs - rejected_log_probs).mean()
 
 ---
 
-**Note**: Anonymous ICLR 2026 submission under review.
+## License
+
+MIT License
